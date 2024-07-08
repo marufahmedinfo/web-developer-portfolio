@@ -8,10 +8,9 @@
   }
 
   main section{
-    margin-top: 130px;
+    
     margin-bottom: 130px;
 }
-
 
 nav{
     display: flex;
@@ -49,6 +48,10 @@ nav ul li a{
     border-radius: 5px;
     font-size: 15px;
     border: none;
+}
+.btn:hover{
+    background-color: #e9b793;
+    color: #574141;
 }
 .banner-pic{
     width: 380px;
@@ -92,6 +95,10 @@ main{
     margin: 0 auto;
 }
 /* About style  */
+.io{
+    border: 1px solid #000;
+    background-color: aliceblue;
+}
 .secondery-background{
     background-color: rgb(255, 248, 243);
 }
@@ -99,6 +106,7 @@ main{
     font-size: 35px;
     font-weight: bold;
     color: #181818;
+    text-align: center;
 }
 .section-description{
     font-size: 18px;
@@ -109,7 +117,7 @@ main{
 }
 .about{
     border-radius: 10px;
-    padding: 130px 150px;
+    padding: 68px 150px 86px 150px;
     text-align: center;
     margin: 130px;
 }
@@ -123,8 +131,10 @@ main{
 .item-description{
     font-weight: 600;
 }
-
 /* skill Style  */
+.skills {
+    margin-top: -160px;
+}
 .skill-container {
     display: flex;
     gap: 25px;
@@ -139,7 +149,36 @@ main{
 .skill:hover{
     box-shadow: 0px 6px 50px 0px #181818;
 }
-
-
+/* resume style  */
+.resume {
+    border-radius: 10px;
+    padding: 68px 150px 86px 150px;
+    margin: 130px;
+    margin-top: -215px;
+}
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.experience-title {
+    margin-bottom: -28px;
+}
+.experience-sub-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.experince-description, .experience-sub-title{
+    color: #757575;
+}
+.resume hr {
+    margin-right: 61px;
+}
+.resume-btn {
+    margin-top: 55px;
+}
+i{
+    margin-right: 7px;
+}
 
 
