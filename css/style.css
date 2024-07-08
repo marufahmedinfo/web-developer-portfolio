@@ -55,7 +55,6 @@ nav ul li a{
     justify-content: space-between;
     margin: 0px 45px 0px 200px;
 }
-.banner-content{}
 .banner-greating{
     color: rgb(71, 71, 71);
 font-size: 45px;
@@ -84,3 +83,42 @@ text-align: left;
     background-position: bottom left,bottom right;
     background-color: rgb(255, 248, 243);
 }
+/* main sytles */
+main{
+    max-width: 1140;
+    margin: 0 auto;
+}
+/* About style  */
+.secondery-background{
+    background-color: rgb(255, 248, 243);
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.about-item {
+    line-height: 10px;
+}
+.item-description{
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
